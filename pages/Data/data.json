@@ -1,0 +1,68 @@
+{
+  "currentUser": {
+    "image": { 
+      "png": "/images/avatars/usopp.webp",
+      "webp": "./images/avatars/image-juliusomo.webp"
+    },
+    "username": "usopp"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "I want to become World's Greatest Swordsman, And there is someone I must meet again. And until that day...not even death himself can take my life away",
+      "createdAt": "1 month ago",
+      "score": 12,
+      "user": {
+        "image": { 
+          "png": "/images/avatars/zoro.webp",
+          "webp": "./images/avatars/image-amyrobson.webp"
+        },
+        "username": "zoro"
+      },
+      "replies": []
+    },
+    {
+      "id": 2,
+      "content": "I have only one dream that is go to the Fish-man island again!. And Just like Mosshead i have someone to meet again right there even death can't stop me as well !",
+      "createdAt": "2 weeks ago",
+      "score": 5,
+      "user": {
+        "image": { 
+          "png": "/images/avatars/sanji.webp",
+          "webp": "./images/avatars/image-maxblagun.webp"
+        },
+        "username": "sanji"
+      },
+      "replies": [
+        {
+          "id": 3,
+          "content": "sanji I am so hungry right now, Only i need is meat if you go back to fish-man island bring a lot of fish back please.",
+          "createdAt": "1 week ago",
+          "score": 4,
+          "replyingTo": "maxblagun",
+          "user": {
+            "image": { 
+              "png": "/images/avatars/luffy.webp",
+              "webp": "/images/avatars/image-ramsesmiron.webp"
+            },
+            "username": "luffy"
+          }
+        },
+        {
+          "id": 4,
+          "content": "What the fuck are you talking. Did you ever tell me your dream is finding out All-blue !!.",
+          "createdAt": "2 days ago",
+          "score": 2,
+          "replyingTo": "ramsesmiron",
+          "user": {
+            "image": { 
+              "png": "/images/avatars/usopp.webp",
+              "webp": "/images/avatars/image-juliusomo.webp"
+            },
+            "username": "usopp"
+          }
+        }
+      ]
+    }
+  ]
+}
