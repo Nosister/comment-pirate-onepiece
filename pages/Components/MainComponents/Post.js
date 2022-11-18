@@ -4,7 +4,7 @@ import InputField from "../SubComponents/InputField.js";
 import SubPost from "../SubComponents/SubPost.js";
 import Profile from "../SubComponents/Profile.js";
 
-export default function Post({ jsonComment, setJsonComments, onChangeJson }) {
+export default function Post({ jsonComment, onChangeJson }) {
   const [clickButton, setClickButton] = useState(true);
   const [idState, setIdState] = useState(0);
   const [replyText, setReplytext] = useState("");

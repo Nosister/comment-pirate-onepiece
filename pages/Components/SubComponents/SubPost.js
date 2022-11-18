@@ -14,7 +14,7 @@ const SubPost = ({
   replyTexts,
   onChange
 }) => {
-  const theReply = reply
+  const theReply =  reply
     .filter((x) => x.content.lenght !== 0)
     .map((items) => {
       return (
@@ -49,7 +49,7 @@ const SubPost = ({
       );
     });
 
-  return <div>{theReply}</div>;
+  return <><div>{theReply}</div></>;
 };
 
 export default SubPost;

@@ -37,7 +37,7 @@ export default function Home() {
     <div className="mt-10 flex justify-center">
       <Post
         jsonComment={jsonComment}
-        setJsonComments={setJsonComment}
+        
         onChangeJson={onChangeJson}
       />
     </div>
