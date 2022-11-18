@@ -38,7 +38,7 @@ export default function Post({ jsonComment, onChangeJson }) {
             parentId={item.id}
           />
         </div>
-        <div>
+        {/* <div>
           <SubPost
             setIdState={setIdState}
             id={item.id}
@@ -50,7 +50,7 @@ export default function Post({ jsonComment, onChangeJson }) {
             replyTexts={replyText}
             onChange={onChangeJsons}
           />
-        </div>
+        </div> */}
       </li>
     );
   });
