@@ -12,7 +12,7 @@ export default function Post({ jsonComment, onChangeJson }) {
   const onChangeJsons = (data, ids) => {
     onChangeJson(data, ids);
   };
-  const mapItem = jsonComment.map((item) => {
+  const mapItem = jsonComment?.map((item) => {
     return (
       <li key={item.id} className="py-4">
         <Profile

@@ -15,8 +15,8 @@ const SubPost = ({
   onChange
 }) => {
   const theReply =  reply
-    .filter((x) => x.content.lenght !== 0)
-    .map((items) => {
+    ?.filter((x) => x.content.lenght !== 0)
+    ?.map((items) => {
       return (
         <div
           key={items.id}
