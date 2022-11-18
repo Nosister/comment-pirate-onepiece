@@ -12,7 +12,12 @@ export default function Post({ jsonComment, onChangeJson }) {
   const onChangeJsons = (data, ids) => {
     onChangeJson(data, ids);
   };
-  const mapItem = jsonComment.map((item) => {
+
+
+  return (
+    <div className="p-6 max-w-xl bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <ul role="list" className="divide-y divide-gray-200">
+       {jsonComment.map((item) => {
     return (
       <li key={item.id} className="py-4">
         <Profile
@@ -53,12 +58,7 @@ export default function Post({ jsonComment, onChangeJson }) {
         </div>
       </li>
     );
-  });
-
-  return (
-    <div className="p-6 max-w-xl bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <ul role="list" className="divide-y divide-gray-200">
-        {mapItem}
+  })}
       </ul>
     </div>
   );
